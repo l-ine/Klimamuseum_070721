@@ -7,9 +7,12 @@ public class ExtractImage : MonoBehaviour
 {
     public Browser browser;
 
-    public Browser refbrowser;
+    public Browser[] refbrowsers;
 
-    private bool fetching = false;
+    private bool fetchingAff = false;
+
+    private bool fetchingPric = false;
+
 
     void Start()
     {
@@ -20,25 +23,36 @@ public class ExtractImage : MonoBehaviour
     {
         if (type == "grow")
         {
-            this.fetching = true;
+            this.fetchingAff = true;
         }
+
+        if (type == "automat")
+        {
+            this.fetchingPric = true;
+        }
+        
     }
 
         void Update()
     {
-        if (this.fetching)
+        if (this.fetchingAff)
         {
-            StartCoroutine(this.fetchGraph(1));
+            StartCoroutine(this.fetchGraph(1, 0));
+        }
+
+        if (this.fetchingPric)
+        {
+            StartCoroutine(this.fetchGraph(0, 1));
         }
     }
 
-    private IEnumerator fetchGraph(int index)
+    private IEnumerator fetchGraph(int index, int counter)
     {
         var promise = this.browser.EvalJS("document.getElementsByClassName(\"chartjs-render-monitor\")[" + index + "].toDataURL(\"img/png\")");
         yield return promise.ToWaitFor();
         // Debug.Log("promised value: " + promise.Value);
-        this.refbrowser.EvalJS("document.getElementById(\"image-container\").src = '" + promise.Value + "';");
-        this.refbrowser.EvalJS("document.getElementById(\"image-container\").width = '" + 500 + "';");
-        this.refbrowser.EvalJS("document.getElementById(\"image-container\").height = '" + 500 + "';");
+        this.refbrowsers[counter].EvalJS("document.getElementById(\"image-container\").src = '" + promise.Value + "';");
+        this.refbrowsers[counter].EvalJS("document.getElementById(\"image-container\").width = '" + 500 + "';");
+        this.refbrowsers[counter].EvalJS("document.getElementById(\"image-container\").height = '" + 500 + "';");
     }
 }

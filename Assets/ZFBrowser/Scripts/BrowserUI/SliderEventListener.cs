@@ -20,11 +20,12 @@ public class SliderEventListener : MonoBehaviour
         //Debug.Log(EventListener.percentage);
         if (this.afforestation)
         {
-           
+            // in mouseclickrobot: setPercentageExternal(float percentage, MouseClickRobot.PROXY_TYPE type)
+            
         }
         if (this.pricing)
         {
-            //...
+            // in mouseclickrobot: setPercentageExternal(float percentage, MouseClickRobot.PROXY_TYPE type)
         }
     }
 
