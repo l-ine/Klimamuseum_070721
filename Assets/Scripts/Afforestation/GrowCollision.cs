@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class GrowCollision : MonoBehaviour
 {
+    public Baum tree;
+
     private void OnCollisionEnter(Collision collision)
     {
-        EventSystemBase.aCollisionEvent("grow");
+        if (collision.transform == this.tree.transform)
+        {
+            EventSystemBase.aCollisionEvent("grow");
+        }
     }
 }

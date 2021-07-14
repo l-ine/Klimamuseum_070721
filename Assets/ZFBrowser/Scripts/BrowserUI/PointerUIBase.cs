@@ -331,7 +331,7 @@ public abstract class PointerUIBase : MonoBehaviour, IBrowserUI {
 	public bool disableMouseEmulation = false;
 
     private MouseClickRobot currentProxy;
-    private MouseClickRobot.PROXY_TYPE relevantProxyType = MouseClickRobot.PROXY_TYPE.NONE;
+    public MouseClickRobot.PROXY_TYPE relevantProxyType = MouseClickRobot.PROXY_TYPE.NONE;
     private int proxystate = 0;
 
 	protected virtual void OnHandlePointers() {
@@ -349,25 +349,27 @@ public abstract class PointerUIBase : MonoBehaviour, IBrowserUI {
 			if (enableVRInput) FeedVRPointers();
 		#endif
 
-        if (Input.GetKeyUp(KeyCode.B))  // if (klick auf "Game"-Tab in afforestation/carbon pricing)
-			{
-            this.relevantProxyType = MouseClickRobot.PROXY_TYPE.INITIAL;
-        }
-        else if (Input.GetKeyUp(KeyCode.N)) // if (klick auf eine soil)
+       // if (Input.GetKeyUp(KeyCode.B))  // if (klick auf "Game"-Tab in afforestation/carbon pricing)
+		//	{
+          /*  this.relevantProxyType = MouseClickRobot.PROXY_TYPE.INITIAL;
+        //}
+        if (Input.GetKeyUp(KeyCode.N)) // if (klick auf eine soil)
 		{
             this.relevantProxyType = MouseClickRobot.PROXY_TYPE.AFFORESTATION;
         }
 		else if (Input.GetKeyUp(KeyCode.M)) // if (klick auf vending machine)
 		{
 			this.relevantProxyType = MouseClickRobot.PROXY_TYPE.PRICING;
-		}
+		}*/
 
 			if (this.proxystate == 1)
         {
             Debug.Log("second click");
             MouseClickRobot proxy = this.currentProxy;
 
-            Ray ray = new Ray(proxy.transform.position, proxy.transform.forward);
+				
+
+				Ray ray = new Ray(proxy.transform.position, proxy.transform.forward);
 
             var buttons = (MouseButton)0;
 

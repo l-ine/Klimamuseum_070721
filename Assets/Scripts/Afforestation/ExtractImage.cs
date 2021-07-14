@@ -16,9 +16,9 @@ public class ExtractImage : MonoBehaviour
 
     void Start()
     {
-        EventSystemBase.aCollisionEvent += this.processCollisionEvent;
+        //EventSystemBase.aCollisionEvent += this.processCollisionEvent;
     }
-
+/*
     void processCollisionEvent(string type)
     {
         if (type == "grow")
@@ -54,5 +54,5 @@ public class ExtractImage : MonoBehaviour
         this.refbrowsers[counter].EvalJS("document.getElementById(\"image-container\").src = '" + promise.Value + "';");
         this.refbrowsers[counter].EvalJS("document.getElementById(\"image-container\").width = '" + 500 + "';");
         this.refbrowsers[counter].EvalJS("document.getElementById(\"image-container\").height = '" + 500 + "';");
-    }
+    }*/
 }

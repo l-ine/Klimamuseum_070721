@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using ZenFulcrum.EmbeddedBrowser;
 
 public class EventListener : MonoBehaviour
 {
+    public MouseClickRobot mouseClick;
+    
+    
     public Baum[] tree;
     public float percentage;
 
@@ -16,6 +20,7 @@ public class EventListener : MonoBehaviour
     void Start()
     {
         EventSystemBase.aCollisionEvent += this.processCollisionEvent;
+        //this.mouseClick.proxyType = MouseClickRobot.PROXY_TYPE.AFFORESTATION;
     }
 
     void Update()
@@ -35,9 +40,9 @@ public class EventListener : MonoBehaviour
         {
             this.growing = true;
             counter++;
-            percentage = counter/3; // ---> diesen in SliderEventlistener weiterleiten
             this.scale = new Vector3[] { tree[0].transform.localScale, tree[1].transform.localScale, tree[2].transform.localScale };
+            percentage = (counter + 1) / 3f;
+            mouseClick.setPercentageExternal(percentage, mouseClick.proxyType);
         }
     }
 }
-
