@@ -8,7 +8,6 @@ public class Soil : MonoBehaviour
     
     public void positionswechsel()
     {
-        Debug.Log(this.tree);
         this.tree.transform.position = this.transform.position;
     }
 }
