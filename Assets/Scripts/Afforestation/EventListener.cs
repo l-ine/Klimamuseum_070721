@@ -20,7 +20,6 @@ public class EventListener : MonoBehaviour
     void Start()
     {
         EventSystemBase.aCollisionEvent += this.processCollisionEvent;
-        //this.mouseClick.proxyType = MouseClickRobot.PROXY_TYPE.AFFORESTATION;
     }
 
     void Update()

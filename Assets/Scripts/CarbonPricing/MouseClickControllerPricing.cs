@@ -10,7 +10,6 @@ public class MouseClickControllerPricing : MonoBehaviour
 
     public int counter = 0;
 
-    // Update is called once per frame
     void Update()
     {
         if (this.counter < coins.Length)
@@ -23,12 +22,10 @@ public class MouseClickControllerPricing : MonoBehaviour
                 if (Physics.Raycast(ray, out hit))
                 {
                     lastHit = hit.transform.gameObject;
-                    Debug.Log("lastHit: " + lastHit);
                     if (hit.transform == machineDisplay.transform)
                     {
                         this.coins[counter].transform.position = hit.transform.position;
                         counter++;
-
                     }
                 }
             }

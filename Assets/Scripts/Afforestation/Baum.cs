@@ -8,7 +8,6 @@ public class Baum : MonoBehaviour
     
     public void grow(Vector3 scale)
     {
-        //this.passedTime = 0f;
         this.passedTime += Time.deltaTime;
         if (this.passedTime < 10.0f)
         {

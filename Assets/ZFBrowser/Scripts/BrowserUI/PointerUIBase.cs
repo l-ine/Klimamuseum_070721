@@ -349,19 +349,11 @@ public abstract class PointerUIBase : MonoBehaviour, IBrowserUI {
 			if (enableVRInput) FeedVRPointers();
 		#endif
 
-       // if (Input.GetKeyUp(KeyCode.B))  // if (klick auf "Game"-Tab in afforestation/carbon pricing)
-		//	{
-          /*  this.relevantProxyType = MouseClickRobot.PROXY_TYPE.INITIAL;
-        //}
-        if (Input.GetKeyUp(KeyCode.N)) // if (klick auf eine soil)
+        if (Input.GetKeyUp(KeyCode.B))  // if (klick auf "Game"-Tab in afforestation/carbon pricing)
 		{
-            this.relevantProxyType = MouseClickRobot.PROXY_TYPE.AFFORESTATION;
+            this.relevantProxyType = MouseClickRobot.PROXY_TYPE.INITIAL;
         }
-		else if (Input.GetKeyUp(KeyCode.M)) // if (klick auf vending machine)
-		{
-			this.relevantProxyType = MouseClickRobot.PROXY_TYPE.PRICING;
-		}*/
-
+       
 			if (this.proxystate == 1)
         {
             Debug.Log("second click");

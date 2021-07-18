@@ -9,7 +9,6 @@ public class MouseClickController : MonoBehaviour
     
     public int counter = 0;
 
-    // Update is called once per frame
     void Update()
     {
         if (counter < soil.Length)

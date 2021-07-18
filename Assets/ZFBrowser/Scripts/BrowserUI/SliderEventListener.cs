@@ -7,25 +7,24 @@ public class SliderEventListener : MonoBehaviour
     private bool afforestation;
     private bool pricing;
 
-    // Start is called before the first frame update
     void Start()
     {
         //SliderEventSystem.aSimulatorSliderEvent(//hier alle möglichkeiten von float percentage, MouseClickRobot.PROXY_TYPE type);
         SliderEventSystem.aSimulatorSliderEvent += this.processSliderEvent;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        //Debug.Log(EventListener.percentage);
         if (this.afforestation)
         {
-            // in mouseclickrobot: setPercentageExternal(float percentage, MouseClickRobot.PROXY_TYPE type)
+            // in mouseclickrobot:
+            //setPercentageExternal(perc, MouseClickRobot.AFFORESTATION);
             
         }
         if (this.pricing)
         {
-            // in mouseclickrobot: setPercentageExternal(float percentage, MouseClickRobot.PROXY_TYPE type)
+            // in mouseclickrobot:
+            //setPercentageExternal(perc, MouseClickRobot.PRICING);
         }
     }
 
