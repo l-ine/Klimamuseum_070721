@@ -11,15 +11,11 @@ public class ExtractingImage : MonoBehaviour
 
     public PointerUIBase BrowserProxy;
 
-   /* public void Start()
-    {
-        StartCoroutine(initialClick);
-    }
-
     public IEnumerator initialClick()
     {
-        browser.relevantProxyType = MouseClickRobot.PROXY_TYPE.INITIAL;
-    }*/
+        BrowserProxy.relevantProxyType = MouseClickRobot.PROXY_TYPE.INITIAL;
+        yield return null;
+    }
 
     public IEnumerator fetchGraph(int index)
     {
@@ -29,7 +25,7 @@ public class ExtractingImage : MonoBehaviour
         this.refbrowser.EvalJS("document.getElementById(\"image-container\").src = '" + promise.Value + "';");
         this.refbrowser.EvalJS("document.getElementById(\"image-container\").width = '" + 500 + "';");
         this.refbrowser.EvalJS("document.getElementById(\"image-container\").height = '" + 500 + "';");
+        
+        StartCoroutine(initialClick());
     }
 }
-
-//Ahhh und zusätzlich haben wir in dem Extract Image Skript eine Coroutine gestartet die einer Methode aufruft, die zu Beginn einmal den INITAL Proxy Clickt, damit man zu dem Richtigen Browserfenster kommt, indem man die Slider verstellen kann
