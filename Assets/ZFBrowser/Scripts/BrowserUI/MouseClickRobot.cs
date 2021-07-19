@@ -48,7 +48,10 @@ public class MouseClickRobot : MonoBehaviour
         }
 
         //BrowserProxy.relevantProxyType = MouseClickRobot.PROXY_TYPE.INITIAL;
+        //BrowserProxy.relevantProxyType = this.proxyType.INITIAL;
         BrowserProxy.relevantProxyType = this.proxyType;
+
+
         if (this.proxyType == PROXY_TYPE.AFFORESTATION)
         {
             StartCoroutine(extractingImage.fetchGraph(1));
