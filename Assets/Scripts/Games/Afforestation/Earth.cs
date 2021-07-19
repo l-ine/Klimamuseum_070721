@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Soil : MonoBehaviour
+public class Earth : MonoBehaviour
 {
-    public Baum tree;
+    public Trees tree;
     
-    public void positionswechsel()
+    // sets the tree to the position of the earth
+    public void transformPosition()
     {
         this.tree.transform.position = this.transform.position;
     }

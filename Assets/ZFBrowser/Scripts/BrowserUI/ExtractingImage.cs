@@ -13,7 +13,8 @@ public class ExtractingImage : MonoBehaviour
 
     public IEnumerator initialClick()
     {
-        BrowserProxy.relevantProxyType = MouseClickRobot.PROXY_TYPE.INITIAL;
+        // set relevantProxyType to INITIAL -> start window in browserplugin disappears (with call in PointerUIBase)
+        this.BrowserProxy.relevantProxyType = MouseClickRobot.PROXY_TYPE.INITIAL;
         yield return null;
     }
 
@@ -26,6 +27,7 @@ public class ExtractingImage : MonoBehaviour
         this.refbrowser.EvalJS("document.getElementById(\"image-container\").width = '" + 500 + "';");
         this.refbrowser.EvalJS("document.getElementById(\"image-container\").height = '" + 500 + "';");
         
+        // start coroutine of method initialClick after fetching the right graph
         StartCoroutine(initialClick());
     }
 }
