@@ -22,6 +22,9 @@ public class MouseClickControllerPricing : MonoBehaviour
                 if (Physics.Raycast(ray, out hit))
                 {
                     lastHit = hit.transform.gameObject;
+
+                    // only if the mouse click hits the machine's display,
+                    // a coin should change its position to the hit position (inside the machine)
                     if (hit.transform == machineDisplay.transform)
                     {
                         this.coins[counter].transform.position = hit.transform.position;
@@ -31,5 +34,4 @@ public class MouseClickControllerPricing : MonoBehaviour
             }
         }
     }
-
 }

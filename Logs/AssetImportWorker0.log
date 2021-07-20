@@ -15,7 +15,7 @@ C:/unity/Klimamuseum_070721
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60222
+60457
 Successfully changed project path to: C:/unity/Klimamuseum_070721
 C:/unity/Klimamuseum_070721
 Using Asset Import Pipeline V2.
@@ -23,7 +23,7 @@ Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directl
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 114.04 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 79.58 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity/Editor/Data/Resources/UnitySubsystems
@@ -39,29 +39,29 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002144 seconds.
+Registered in 0.002244 seconds.
 Native extension for WindowsStandalone target not found
 Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 45.52 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 43.82 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.155 seconds
+- Completed reload, in  1.107 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002671 seconds.
+Registered in 0.002434 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.918 seconds
+- Completed reload, in  0.856 seconds
 Platform modules already initialized, skipping
 Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -73,118 +73,22 @@ Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directl
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1246 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.5 MB.
-System memory in use after: 65.7 MB.
+System memory in use before: 66.4 MB.
+System memory in use after: 65.6 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 1675.
-Total: 2.526900 ms (FindLiveObjects: 0.151600 ms CreateObjectMapping: 0.033000 ms MarkObjects: 1.592000 ms  DeleteObjects: 0.748900 ms)
+Total: 2.639300 ms (FindLiveObjects: 0.166300 ms CreateObjectMapping: 0.044100 ms MarkObjects: 1.700700 ms  DeleteObjects: 0.726900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Games/Afforestation/Earth.cs
-  artifactKey: Guid(0ef9b918d614912449f47a8649a9cbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Games/Afforestation/Earth.cs using Guid(0ef9b918d614912449f47a8649a9cbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee2894c80f6deecc46a959b8d1c4436') in 0.042331 seconds
-  Import took 0.046073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.385724 seconds.
-  path: Assets/bowl/bowl.obj
-  artifactKey: Guid(5d871b7cff58d764c949874ee85a497b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bowl/bowl.obj using Guid(5d871b7cff58d764c949874ee85a497b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b4ea818dbdf5ac675af6d874bf5b02') in 0.127274 seconds
-  Import took 0.130045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/bowl/Bowl_textureColor.jpg
-  artifactKey: Guid(c37142826503f7d4f8b83c840ecb61a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bowl/Bowl_textureColor.jpg using Guid(c37142826503f7d4f8b83c840ecb61a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef12db380a02392373b348b9681af637') in 0.040938 seconds
-  Import took 0.042950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/bowl/Bowl_textureTransparency.jpg
-  artifactKey: Guid(e3938e469e212e34298b32ed05d3d777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bowl/Bowl_textureTransparency.jpg using Guid(e3938e469e212e34298b32ed05d3d777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3b60db50d591ef21d588af91eeae2c') in 0.010037 seconds
-  Import took 0.012511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/bowl/Untitled.png
-  artifactKey: Guid(0c4e2eacd308a0440a8f491e90364238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bowl/Untitled.png using Guid(0c4e2eacd308a0440a8f491e90364238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fc2a633a78751db95cef6f0f80e63e') in 0.034943 seconds
-  Import took 0.038666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/bowl/Bowl_textureReflection.jpg
-  artifactKey: Guid(9cd8faa5d700e1c46bc5c06b9e8de058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bowl/Bowl_textureReflection.jpg using Guid(9cd8faa5d700e1c46bc5c06b9e8de058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed80cca64a5170a0885ba6af99f033a') in 0.022132 seconds
-  Import took 0.024977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.327977 seconds.
-  path: Assets/bowl/10315_soup_plate_L3.123c79f76aa3-8eab-4c42-8a95-ffca893a2fc5
-  artifactKey: Guid(bfe93c4e74fa3c649a03753d00f84432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bowl/10315_soup_plate_L3.123c79f76aa3-8eab-4c42-8a95-ffca893a2fc5 using Guid(bfe93c4e74fa3c649a03753d00f84432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402f59244ab0fdc790dc3ffd205576c4') in 0.002743 seconds
-  Import took 0.005452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.162855 seconds.
-  path: Assets/bowl/10315_soup_plate_L3.123c79f76aa3-8eab-4c42-8a95-ffca893a2fc5/10315_soup_plate_v1_Diffuse.jpg
-  artifactKey: Guid(b827af01b324f0d4eb3d244fdc9d46eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bowl/10315_soup_plate_L3.123c79f76aa3-8eab-4c42-8a95-ffca893a2fc5/10315_soup_plate_v1_Diffuse.jpg using Guid(b827af01b324f0d4eb3d244fdc9d46eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4354066a4ac6ddd46b55f9f8126f98ad') in 0.016604 seconds
-  Import took 0.019641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/bowl/10315_soup_plate_L3.123c79f76aa3-8eab-4c42-8a95-ffca893a2fc5/10315_soup_plate_v2_max2011_iteration-2.obj
-  artifactKey: Guid(5007a3611855ad843a5d1d219a3dab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bowl/10315_soup_plate_L3.123c79f76aa3-8eab-4c42-8a95-ffca893a2fc5/10315_soup_plate_v2_max2011_iteration-2.obj using Guid(5007a3611855ad843a5d1d219a3dab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b259c12ecf1e5b32ae56177962f0843d') in 0.035739 seconds
-  Import took 0.037711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.056922 seconds.
-  path: Assets/bowl/Materials
-  artifactKey: Guid(c78614a7fd62c40459c879e09baf7676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bowl/Materials using Guid(c78614a7fd62c40459c879e09baf7676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04aaf507f03cadcb79086bf200fc2aa9') in 0.007342 seconds
-  Import took 0.009841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.066341 seconds.
-  path: Assets/bowl/Materials/Bowl_textureColor.mat
-  artifactKey: Guid(b07e6ca06302f4048b3aaeaa8c8c1870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bowl/Materials/Bowl_textureColor.mat using Guid(b07e6ca06302f4048b3aaeaa8c8c1870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb22af58f2fb4de2e8a7f1b67c00b25') in 0.066226 seconds
-  Import took 0.068910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/bowl/Materials/Bowl_textureReflection.mat
-  artifactKey: Guid(c5719bfc2c1d6444cbae61fe963461bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bowl/Materials/Bowl_textureReflection.mat using Guid(c5719bfc2c1d6444cbae61fe963461bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04086a33a47ef938a4fd3808abb32e9') in 0.012245 seconds
-  Import took 0.014227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/bowl/Materials/Untitled.mat
-  artifactKey: Guid(d38052cdfa658524ab4dc6a7b5001f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bowl/Materials/Untitled.mat using Guid(d38052cdfa658524ab4dc6a7b5001f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a422f9be264b04c7adf6bf0613a0306a') in 0.026172 seconds
-  Import took 0.028845 seconds .
+  path: Assets/Scripts/Games/Afforestation/EventListener.cs
+  artifactKey: Guid(ad4f18787662cdb40a2e4fecb2679ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/Afforestation/EventListener.cs using Guid(ad4f18787662cdb40a2e4fecb2679ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1642b8100638575aef851a6a48b1a7a') in 0.037044 seconds
+  Import took 0.039110 seconds .
 
 ========================================================================
 Received Prepare
@@ -193,41 +97,325 @@ Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directl
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.002548 seconds.
+Registered in 0.003708 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.917 seconds
+- Completed reload, in  0.828 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.7 MB.
-System memory in use after: 67.9 MB.
+System memory in use before: 65.1 MB.
+System memory in use after: 64.4 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1725.
-Total: 3.878100 ms (FindLiveObjects: 0.173200 ms CreateObjectMapping: 0.046500 ms MarkObjects: 2.594500 ms  DeleteObjects: 1.062000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 543.390161 seconds.
-  path: Assets/bowl/10315_soup_plate_v2_max2011_iteration-2.obj
-  artifactKey: Guid(5007a3611855ad843a5d1d219a3dab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bowl/10315_soup_plate_v2_max2011_iteration-2.obj using Guid(5007a3611855ad843a5d1d219a3dab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c44a510daaac936cc043e86934867f5') in 0.120745 seconds
-  Import took 0.123710 seconds .
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1678.
+Total: 5.089500 ms (FindLiveObjects: 0.374100 ms CreateObjectMapping: 0.146600 ms MarkObjects: 3.762500 ms  DeleteObjects: 0.803700 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 36.126816 seconds.
-  path: Assets/bowl/bowl.c4d
-  artifactKey: Guid(717051ce6ea1e034a8c208ddbeb58db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bowl/bowl.c4d using Guid(717051ce6ea1e034a8c208ddbeb58db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
- -> (artifact id: 'c14b536413b3a7de9a56441c29a2ea77') in 0.007160 seconds
-  Import took 0.010489 seconds .
+Registering precompiled user dll's ...
+Registered in 0.002545 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 64.4 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1681.
+Total: 8.770200 ms (FindLiveObjects: 0.545000 ms CreateObjectMapping: 0.231300 ms MarkObjects: 4.778200 ms  DeleteObjects: 3.212300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 498.185374 seconds.
+  path: Assets/Scripts/Games/Afforestation/GrowCollision.cs
+  artifactKey: Guid(d3a96668ff704a34ea233ce902e17f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/Afforestation/GrowCollision.cs using Guid(d3a96668ff704a34ea233ce902e17f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cd5782ad7fe1c07c4c719aa3e1b070') in 0.017939 seconds
+  Import took 0.022861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201636 seconds.
+  path: Assets/Scripts/Games/Afforestation/MouseClickController.cs
+  artifactKey: Guid(4cddb96c681a8fe449546a81b9d10e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/Afforestation/MouseClickController.cs using Guid(4cddb96c681a8fe449546a81b9d10e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5294e73119318c10df4070be9c74951') in 0.010958 seconds
+  Import took 0.014420 seconds .
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002490 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.801 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 64.4 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1684.
+Total: 5.969900 ms (FindLiveObjects: 0.376800 ms CreateObjectMapping: 0.134900 ms MarkObjects: 4.511900 ms  DeleteObjects: 0.944000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.399775 seconds.
+  path: Assets/Scripts/Games/Afforestation/MouseClickController.cs
+  artifactKey: Guid(4cddb96c681a8fe449546a81b9d10e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/Afforestation/MouseClickController.cs using Guid(4cddb96c681a8fe449546a81b9d10e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7909db07228354990626177a71ab2887') in 0.010515 seconds
+  Import took 0.016222 seconds .
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002557 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.850 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 64.4 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1687.
+Total: 8.504200 ms (FindLiveObjects: 0.416100 ms CreateObjectMapping: 0.139700 ms MarkObjects: 4.988500 ms  DeleteObjects: 2.954600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.141096 seconds.
+  path: Assets/Scripts/Games/EventSystemBase.cs
+  artifactKey: Guid(cd51bf583ecdc3d4e9d6a2e24d97b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/EventSystemBase.cs using Guid(cd51bf583ecdc3d4e9d6a2e24d97b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc34832414be8ded027b0dddf08d669') in 0.009783 seconds
+  Import took 0.012232 seconds .
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002430 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.795 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 64.4 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1690.
+Total: 3.142700 ms (FindLiveObjects: 0.171200 ms CreateObjectMapping: 0.064100 ms MarkObjects: 1.996900 ms  DeleteObjects: 0.909300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 597.903594 seconds.
+  path: Assets/ZFBrowser/Scripts/BrowserUI/MouseClickRobot.cs
+  artifactKey: Guid(de1077a9f6d391b468b2a82d7e903eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZFBrowser/Scripts/BrowserUI/MouseClickRobot.cs using Guid(de1077a9f6d391b468b2a82d7e903eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20b7c56da6bd8ff4d52df27a290149c') in 0.026479 seconds
+  Import took 0.032749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 201.914546 seconds.
+  path: Assets/ZFBrowser/Materials/LitBrowser.mat
+  artifactKey: Guid(c75e297aeabdc5b4ba352798d8fbb39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZFBrowser/Materials/LitBrowser.mat using Guid(c75e297aeabdc5b4ba352798d8fbb39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e1efe9e69ff4bc212a4c25c728f4a4') in 0.121433 seconds
+  Import took 0.124562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/ZFBrowser/Materials/UnlitBrowserOpaque.mat
+  artifactKey: Guid(0ae1a35d93062624aa4765ab05afa2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZFBrowser/Materials/UnlitBrowserOpaque.mat using Guid(0ae1a35d93062624aa4765ab05afa2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb5eb2f06862b161d3327c0eb899449') in 0.029765 seconds
+  Import took 0.032878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/ZFBrowser/Materials/UnlitBrowserColored.mat
+  artifactKey: Guid(2f25fad43dc5dff4b86f7633f1d13fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZFBrowser/Materials/UnlitBrowserColored.mat using Guid(2f25fad43dc5dff4b86f7633f1d13fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff439e3540f61d2fd70ae21b8d3d163a') in 0.025488 seconds
+  Import took 0.028046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/ZFBrowser/Materials/Placeholder.png
+  artifactKey: Guid(30a28a853ae87d44bab2c4bdc861c40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZFBrowser/Materials/Placeholder.png using Guid(30a28a853ae87d44bab2c4bdc861c40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c945114e4327f6311e36dbcdf8dd46') in 0.043460 seconds
+  Import took 0.046118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/ZFBrowser/Materials/UnlitBrowser.mat
+  artifactKey: Guid(9b6568b63275c7448897f0b392db7e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZFBrowser/Materials/UnlitBrowser.mat using Guid(9b6568b63275c7448897f0b392db7e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5135706dceae47c59d4d241e312486c') in 0.012594 seconds
+  Import took 0.014789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.569924 seconds.
+  path: Assets/Modern Vending Machine/Materials/Materials/Modern Vending Machine Screen_modified_0.mat
+  artifactKey: Guid(0936cf95f349d974d94c4c9a88aa8235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Vending Machine/Materials/Materials/Modern Vending Machine Screen_modified_0.mat using Guid(0936cf95f349d974d94c4c9a88aa8235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48183fcad5533f72d49001ef035c2a82') in 0.032551 seconds
+  Import took 0.035497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.553275 seconds.
+  path: Assets/Models/Others/Bench/11.jpg
+  artifactKey: Guid(6c484c4dac14fa30f88451aaa09e2496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Others/Bench/11.jpg using Guid(6c484c4dac14fa30f88451aaa09e2496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db52b8b2d7466bf6322d956c453c8f18') in 0.036928 seconds
+  Import took 0.039139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Models/Others/Bench/kreslo12.jpg
+  artifactKey: Guid(d946f5e8690e3737ca72416cbf4e711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Others/Bench/kreslo12.jpg using Guid(d946f5e8690e3737ca72416cbf4e711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d021f853e4f4a2d944411fa6f957f07') in 0.048765 seconds
+  Import took 0.050777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Models/Others/Bench/leather_.jpg
+  artifactKey: Guid(b7a2dcd4d1722a47a9ba8c97b74cb4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Others/Bench/leather_.jpg using Guid(b7a2dcd4d1722a47a9ba8c97b74cb4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb8dae6eab90eb6970a095ede0f6c03') in 0.029193 seconds
+  Import took 0.031890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Models/Others/Bench/Metal G6.jpg
+  artifactKey: Guid(bb9b1fea7b9fe0bc7bf06a7f4a56a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Others/Bench/Metal G6.jpg using Guid(bb9b1fea7b9fe0bc7bf06a7f4a56a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964b847d34d677b0272b15108b931b23') in 0.029140 seconds
+  Import took 0.031586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Models/Others/Bench/Brass02.jpg
+  artifactKey: Guid(ec80222a48465f65f836cc6dabf798c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Others/Bench/Brass02.jpg using Guid(ec80222a48465f65f836cc6dabf798c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15074bfa22eb837bbed0a51907f41180') in 0.031068 seconds
+  Import took 0.033251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Models/Others/Bench/leat swh.jpg
+  artifactKey: Guid(8c50914cd8a328826b558cf48c056f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Others/Bench/leat swh.jpg using Guid(8c50914cd8a328826b558cf48c056f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d40c37cdc9fea982edd11aa89ca11a') in 0.027216 seconds
+  Import took 0.029691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Models/Others/Bench/Brass02.jpg
+  artifactKey: Guid(ec80222a48465f65f836cc6dabf798c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Others/Bench/Brass02.jpg using Guid(ec80222a48465f65f836cc6dabf798c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15074bfa22eb837bbed0a51907f41180') in 0.017269 seconds
+  Import took 0.019897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.982076 seconds.
+  path: Assets/Models/Others/Bench/Materials/leather_.mat
+  artifactKey: Guid(29e8e5fc1c209274a9f59ce7d35c6128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Others/Bench/Materials/leather_.mat using Guid(29e8e5fc1c209274a9f59ce7d35c6128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd374e7ea6f1427cd91de1b6417abeb05') in 0.016146 seconds
+  Import took 0.018827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Models/Others/Bench/Materials
+  artifactKey: Guid(664632f2faddbb44e9c84e8dd6de6126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Others/Bench/Materials using Guid(664632f2faddbb44e9c84e8dd6de6126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ed43fabf42b5bdab053697e38e2e55') in 0.002705 seconds
+  Import took 0.005304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Models/Others/Bench/Materials/Metal G6.mat
+  artifactKey: Guid(f6184037243548a4b8461fd2718952be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Others/Bench/Materials/Metal G6.mat using Guid(f6184037243548a4b8461fd2718952be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57528d3ce8621e917b31e549a2aea30e') in 0.014045 seconds
+  Import took 0.016919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.412160 seconds.
+  path: Assets/Modern Vending Machine/Materials/Materials
+  artifactKey: Guid(e1f6630e07adf464c88ea74962760b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Vending Machine/Materials/Materials using Guid(e1f6630e07adf464c88ea74962760b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b06ffcec27124db7ffb805a9d1d375') in 0.002518 seconds
+  Import took 0.004942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.976390 seconds.
+  path: Assets/Modern Vending Machine/Materials/Modern Vending Machine Front (Cola).mat
+  artifactKey: Guid(0fc22112ed12045f194b1d14fd54842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Vending Machine/Materials/Modern Vending Machine Front (Cola).mat using Guid(0fc22112ed12045f194b1d14fd54842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe98f8a15bab59389ace30ab1140bb6') in 0.024078 seconds
+  Import took 0.027745 seconds .
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002286 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.6 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1743.
+Total: 2.627600 ms (FindLiveObjects: 0.157100 ms CreateObjectMapping: 0.030900 ms MarkObjects: 2.039500 ms  DeleteObjects: 0.398500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

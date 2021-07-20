@@ -22,14 +22,14 @@ public class EventListenerPricing : MonoBehaviour
     void Start()
     {
         EventSystemBase.aCollisionEvent += this.processCollisionEvent;
-        
     }
 
     void Update()
     {
         if (this.pricing && counter < coins.Length)
         {
-            disappear(coins);
+            // call pay function
+            pay(coins);
         }
     }
 
@@ -37,24 +37,29 @@ public class EventListenerPricing : MonoBehaviour
     {
         if (type == "price")
         {
+            // type is "price" -> set pricing true, so the pay function is called in the Update-method
             this.pricing = true;
             counter++;
+
+            // percentage (so how much the slider is changing in the webplugin) is calculated: 
             percentage = (counter + 1) / 6f;
+            // method setPercentageExternal() in script ExtractingImage is called
+            // -> slider of proxyType changes to the certain percentage
             mouseClick.setPercentageExternal(percentage, mouseClick.proxyType);
         }
     }
 
-    void disappear(GameObject[] coins)
+    void pay(GameObject[] coins)
     {
         // coins disappear in the vending machine
         coins[this.counter].transform.position = this.machineDisplay.transform.position;
 
-        // display changes
+        // display of the machine changes and shows number of coins that are already paid
         machineDisplay.GetComponent<MeshRenderer>().material.mainTexture = textures[this.counter + 1];
 
-        // coal comes out of the vending machine
         if (this.counter == (coins.Length - 1))
         {
+            // all coins are paid -> coal piece comes out of the vending machine
             coal.AddComponent<Rigidbody>();
         }
     }

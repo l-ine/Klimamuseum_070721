@@ -8,6 +8,7 @@ public class MoneyCollision : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        // if it is not the player that collides, the collision should be called "price"
         if (collision.transform != this.player.transform)
         {
             EventSystemBase.aCollisionEvent("price");

@@ -22,8 +22,8 @@ public class MouseClickController : MonoBehaviour
                 {
                     lastHit = hit.transform.gameObject;
 
-                    // only when the mouse click hit one of the earths,
-                    // a tree should change his position to one of the earth's position
+                    // only if the mouse click hits one of the earths,
+                    // a tree should change its position to one of the earths' positions
                     // (with the method transformPosition() in the script "Earth")
                     if (hit.transform == earths[counter].transform)
                     {
