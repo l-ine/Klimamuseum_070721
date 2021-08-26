@@ -24,7 +24,7 @@ public class MouseClickControllerPricing : MonoBehaviour
                     lastHit = hit.transform.gameObject;
 
                     // only if the mouse click hits the machine's display,
-                    // a coin should change its position to the hit position (inside the machine)
+                    // a coin should change its position to the hit position (and disappears inside the machine)
                     if (hit.transform == machineDisplay.transform)
                     {
                         this.coins[counter].transform.position = hit.transform.position;

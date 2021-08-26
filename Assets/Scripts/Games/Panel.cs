@@ -9,6 +9,7 @@ public class Panel : MonoBehaviour
 
     void Start()
     {
+        // displays the corresponding graph, even before the task was started
         StartCoroutine(extractingImage.fetchGraph(index));
     }
 }

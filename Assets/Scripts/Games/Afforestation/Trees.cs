@@ -15,8 +15,8 @@ public class Trees : MonoBehaviour
         if (this.passedTime < 10.0f)
         {
             this.transform.localScale = Vector3.Lerp(new Vector3(0.2f, 0.2f, 0.2f),
-                                                          scale,
-                                                          1 / this.passedTime);
+                                                     scale,
+                                                     1 / this.passedTime);
         }
     }
 }

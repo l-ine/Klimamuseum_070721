@@ -44,7 +44,7 @@ public class EventListenerAff : MonoBehaviour
             counter++;
 
             // save the scale of every tree in the array scale
-            // because the scales are continously changing, when the trees are growing
+            // because the scales are continuously changing, when the trees are growing
             this.scale = new Vector3[] { tree[0].transform.localScale, 
                                          tree[1].transform.localScale, 
                                          tree[2].transform.localScale };

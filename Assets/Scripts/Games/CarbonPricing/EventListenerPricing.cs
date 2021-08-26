@@ -51,9 +51,6 @@ public class EventListenerPricing : MonoBehaviour
 
     void pay(GameObject[] coins)
     {
-        // coins disappear in the vending machine
-        coins[this.counter].transform.position = this.machineDisplay.transform.position;
-
         // display of the machine changes and shows number of coins that are already paid
         machineDisplay.GetComponent<MeshRenderer>().material.mainTexture = textures[this.counter + 1];
 
