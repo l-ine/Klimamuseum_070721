@@ -1,0 +1,893 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'de' Physical Memory: 16217 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/unity/Klimamuseum_070721
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50179
+Successfully changed project path to: C:/unity/Klimamuseum_070721
+C:/unity/Klimamuseum_070721
+Using Asset Import Pipeline V2.
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Refreshing native plugins compatible for Editor in 68.34 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/unity/Klimamuseum_070721/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     8108 MB
+    Driver:   27.20.100.8854
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001962 seconds.
+Native extension for WindowsStandalone target not found
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Refreshing native plugins compatible for Editor in 56.86 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002502 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Platform modules already initialized, skipping
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+========================================================================
+Worker process is ready to serve import requests
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.4 MB.
+System memory in use after: 66.0 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 1677.
+Total: 2.817900 ms (FindLiveObjects: 0.109900 ms CreateObjectMapping: 0.029200 ms MarkObjects: 2.183600 ms  DeleteObjects: 0.494200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/bowl
+  artifactKey: Guid(610975e47311fdf4c84656f86c0eb431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bowl using Guid(610975e47311fdf4c84656f86c0eb431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb390cd6e34b104eec9a03f18e3abbed') in 0.015136 seconds
+  Import took 0.017740 seconds .
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002406 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.1 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1680.
+Total: 4.673900 ms (FindLiveObjects: 0.295500 ms CreateObjectMapping: 0.078000 ms MarkObjects: 3.546300 ms  DeleteObjects: 0.736300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 849.266714 seconds.
+  path: Assets/Scripts/Games/Afforestation/EventListenerAff.cs
+  artifactKey: Guid(ad4f18787662cdb40a2e4fecb2679ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/Afforestation/EventListenerAff.cs using Guid(ad4f18787662cdb40a2e4fecb2679ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4d504eb09dc5e22e15b4e4aa181753') in 0.038391 seconds
+  Import took 0.040513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.690559 seconds.
+  path: Assets/Scripts/Games/Afforestation/Trees.cs
+  artifactKey: Guid(e282865f69fa2b34cae9d53608385826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/Afforestation/Trees.cs using Guid(e282865f69fa2b34cae9d53608385826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d5f2c8f8da1a6e0234a47871d0912a') in 0.007920 seconds
+  Import took 0.010567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.980324 seconds.
+  path: Assets/Scripts/Games/CarbonPricing/EventListenerPricing.cs
+  artifactKey: Guid(5a56d6de23b30554bb991ca47d5843be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/CarbonPricing/EventListenerPricing.cs using Guid(5a56d6de23b30554bb991ca47d5843be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c968947d7e98fab4128cb6bf375c7d') in 0.009308 seconds
+  Import took 0.011839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.193233 seconds.
+  path: Assets/Scripts/Games/CarbonPricing/MoneyCollision.cs
+  artifactKey: Guid(5ddaea7019630a14db1f0db1c0bf62a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/CarbonPricing/MoneyCollision.cs using Guid(5ddaea7019630a14db1f0db1c0bf62a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e30788e43216396cf0cceb4e09ede8') in 0.008362 seconds
+  Import took 0.010336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.976900 seconds.
+  path: Assets/Scripts/Games/CarbonPricing/MouseClickControllerPricing.cs
+  artifactKey: Guid(4473f7920fb9d1849aa98c7ae8f5c9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/CarbonPricing/MouseClickControllerPricing.cs using Guid(4473f7920fb9d1849aa98c7ae8f5c9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2084bca4fdebebec0dcda247bc05c2e') in 0.008059 seconds
+  Import took 0.011121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001619 seconds.
+  path: Assets/Scripts/Games/CarbonPricing/MouseClickControllerPricing.cs
+  artifactKey: Guid(4473f7920fb9d1849aa98c7ae8f5c9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/CarbonPricing/MouseClickControllerPricing.cs using Guid(4473f7920fb9d1849aa98c7ae8f5c9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2084bca4fdebebec0dcda247bc05c2e') in 0.002465 seconds
+  Import took 0.004711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.305167 seconds.
+  path: Assets/Scripts/Games/Afforestation/MouseClickControllerAff.cs
+  artifactKey: Guid(4cddb96c681a8fe449546a81b9d10e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/Afforestation/MouseClickControllerAff.cs using Guid(4cddb96c681a8fe449546a81b9d10e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f4440b27a749abf080d9f302ad8c57') in 0.007654 seconds
+  Import took 0.010186 seconds .
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.425 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.1 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1683.
+Total: 3.288500 ms (FindLiveObjects: 0.265900 ms CreateObjectMapping: 0.281300 ms MarkObjects: 2.221500 ms  DeleteObjects: 0.518200 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002486 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.822 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.1 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1686.
+Total: 3.233400 ms (FindLiveObjects: 0.211800 ms CreateObjectMapping: 0.032800 ms MarkObjects: 2.440600 ms  DeleteObjects: 0.547100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.854220 seconds.
+  path: Assets/Scripts/Games/Afforestation/MouseClickControllerAff.cs
+  artifactKey: Guid(4cddb96c681a8fe449546a81b9d10e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/Afforestation/MouseClickControllerAff.cs using Guid(4cddb96c681a8fe449546a81b9d10e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9f440e3d8f974b9c6275ff1810c589') in 0.004651 seconds
+  Import took 0.006856 seconds .
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.003033 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.765 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1689.
+Total: 3.021600 ms (FindLiveObjects: 0.241900 ms CreateObjectMapping: 0.061700 ms MarkObjects: 2.253800 ms  DeleteObjects: 0.463300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 213.313432 seconds.
+  path: Assets/Scripts/Games/CarbonPricing/PayCollision.cs
+  artifactKey: Guid(5ddaea7019630a14db1f0db1c0bf62a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/CarbonPricing/PayCollision.cs using Guid(5ddaea7019630a14db1f0db1c0bf62a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65063af0d856ce3f3b343a1cb871b410') in 0.009163 seconds
+  Import took 0.012215 seconds .
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002563 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.772 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.1 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1692.
+Total: 2.581900 ms (FindLiveObjects: 0.190500 ms CreateObjectMapping: 0.063300 ms MarkObjects: 1.715900 ms  DeleteObjects: 0.610800 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002583 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.797 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.1 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1695.
+Total: 3.133900 ms (FindLiveObjects: 0.235400 ms CreateObjectMapping: 0.039000 ms MarkObjects: 2.350600 ms  DeleteObjects: 0.507600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.132681 seconds.
+  path: Assets/Scripts/Games/CarbonPricing/PayCollision.cs
+  artifactKey: Guid(5ddaea7019630a14db1f0db1c0bf62a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/CarbonPricing/PayCollision.cs using Guid(5ddaea7019630a14db1f0db1c0bf62a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ed256c36a9ae566d924957dcf28fd5') in 0.012091 seconds
+  Import took 0.016586 seconds .
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002459 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.1 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1698.
+Total: 2.971300 ms (FindLiveObjects: 0.147500 ms CreateObjectMapping: 0.042800 ms MarkObjects: 1.967800 ms  DeleteObjects: 0.811700 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.003021 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.982 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.1 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1701.
+Total: 3.005900 ms (FindLiveObjects: 0.132500 ms CreateObjectMapping: 0.044000 ms MarkObjects: 2.334300 ms  DeleteObjects: 0.494100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 174.942823 seconds.
+  path: Assets/Scripts/Games/CarbonPricing/EventListenerPricing.cs
+  artifactKey: Guid(5a56d6de23b30554bb991ca47d5843be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/CarbonPricing/EventListenerPricing.cs using Guid(5a56d6de23b30554bb991ca47d5843be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282f0b8a2d7865494330be3d710d53af') in 0.007337 seconds
+  Import took 0.009828 seconds .
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002480 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1704.
+Total: 2.949200 ms (FindLiveObjects: 0.272000 ms CreateObjectMapping: 0.061700 ms MarkObjects: 2.020500 ms  DeleteObjects: 0.594100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.947882 seconds.
+  path: Assets/Scripts/Games/CarbonPricing/MouseClickControllerPricing.cs
+  artifactKey: Guid(4473f7920fb9d1849aa98c7ae8f5c9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/CarbonPricing/MouseClickControllerPricing.cs using Guid(4473f7920fb9d1849aa98c7ae8f5c9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f8799999554d793d038e4c42f6df28') in 0.007238 seconds
+  Import took 0.010574 seconds .
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002511 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1707.
+Total: 2.345500 ms (FindLiveObjects: 0.145600 ms CreateObjectMapping: 0.063300 ms MarkObjects: 1.662500 ms  DeleteObjects: 0.472900 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.003195 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.462 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1710.
+Total: 4.902500 ms (FindLiveObjects: 0.257600 ms CreateObjectMapping: 0.066000 ms MarkObjects: 3.736500 ms  DeleteObjects: 0.839900 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.003291 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.055 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1713.
+Total: 4.493600 ms (FindLiveObjects: 0.309100 ms CreateObjectMapping: 0.167100 ms MarkObjects: 3.170600 ms  DeleteObjects: 0.844300 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002449 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1716.
+Total: 2.956300 ms (FindLiveObjects: 0.288800 ms CreateObjectMapping: 0.077100 ms MarkObjects: 2.101200 ms  DeleteObjects: 0.488100 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1719.
+Total: 3.933000 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.035300 ms MarkObjects: 2.856300 ms  DeleteObjects: 0.837400 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.003113 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.775 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1722.
+Total: 3.054700 ms (FindLiveObjects: 0.165800 ms CreateObjectMapping: 0.031100 ms MarkObjects: 2.201100 ms  DeleteObjects: 0.655700 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.003784 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.404 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1725.
+Total: 4.321500 ms (FindLiveObjects: 0.175900 ms CreateObjectMapping: 0.052500 ms MarkObjects: 3.293400 ms  DeleteObjects: 0.797700 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002537 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.793 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1728.
+Total: 2.334900 ms (FindLiveObjects: 0.151700 ms CreateObjectMapping: 0.032500 ms MarkObjects: 1.655700 ms  DeleteObjects: 0.493600 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002495 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.812 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1731.
+Total: 3.750300 ms (FindLiveObjects: 0.175400 ms CreateObjectMapping: 0.037300 ms MarkObjects: 2.749000 ms  DeleteObjects: 0.787100 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.004925 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.489 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1734.
+Total: 5.085000 ms (FindLiveObjects: 0.277800 ms CreateObjectMapping: 0.116000 ms MarkObjects: 3.533700 ms  DeleteObjects: 1.155000 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002533 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1737.
+Total: 5.219200 ms (FindLiveObjects: 0.334000 ms CreateObjectMapping: 0.168200 ms MarkObjects: 4.066600 ms  DeleteObjects: 0.647900 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002923 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.284 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.4 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1740.
+Total: 4.173100 ms (FindLiveObjects: 0.199300 ms CreateObjectMapping: 0.037900 ms MarkObjects: 2.957400 ms  DeleteObjects: 0.977500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1438.502368 seconds.
+  path: Assets/Scripts/Games/Panel.cs
+  artifactKey: Guid(1a97a5305587c484fa2b831326fe3087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Games/Panel.cs using Guid(1a97a5305587c484fa2b831326fe3087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4dd7dee78772984d9f48867cbaf52b') in 0.015601 seconds
+  Import took 0.018537 seconds .
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.003032 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.4 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1743.
+Total: 3.099900 ms (FindLiveObjects: 0.121800 ms CreateObjectMapping: 0.032400 ms MarkObjects: 2.473600 ms  DeleteObjects: 0.471100 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.759 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.4 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1746.
+Total: 3.675200 ms (FindLiveObjects: 0.171900 ms CreateObjectMapping: 0.046200 ms MarkObjects: 2.564800 ms  DeleteObjects: 0.891000 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.003192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.724 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.4 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1749.
+Total: 2.514700 ms (FindLiveObjects: 0.139200 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.667500 ms  DeleteObjects: 0.670200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 977.822654 seconds.
+  path: Assets/Prefabs/Afforestation
+  artifactKey: Guid(ea4dc9ff94c43cf4d8176b4f7eec7604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Afforestation using Guid(ea4dc9ff94c43cf4d8176b4f7eec7604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedc8433283edb61800f82f9fcce0a05') in 0.007805 seconds
+  Import took 0.009887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.662471 seconds.
+  path: Assets/Prefabs/Afforestation/Earth1.prefab
+  artifactKey: Guid(982324684e243904c9308887fc81f7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Afforestation/Earth1.prefab using Guid(982324684e243904c9308887fc81f7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52298828e936c3fee1e85cd86c746b8a') in 0.100434 seconds
+  Import took 0.103822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.443189 seconds.
+  path: Assets/Prefabs/Afforestation/Earth2.prefab
+  artifactKey: Guid(f328c4540c3173546a6656517aaf447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Afforestation/Earth2.prefab using Guid(f328c4540c3173546a6656517aaf447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edebe02c630839e01770b3ef9ef1e5a') in 0.019331 seconds
+  Import took 0.022159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009526 seconds.
+  path: Assets/Prefabs/Afforestation/Earth2.prefab
+  artifactKey: Guid(f328c4540c3173546a6656517aaf447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Afforestation/Earth2.prefab using Guid(f328c4540c3173546a6656517aaf447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edebe02c630839e01770b3ef9ef1e5a') in 0.017106 seconds
+  Import took 0.019979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.077168 seconds.
+  path: Assets/Prefabs/Afforestation/Earth3.prefab
+  artifactKey: Guid(c03cf574b2149294d85646b5f5943fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Afforestation/Earth3.prefab using Guid(c03cf574b2149294d85646b5f5943fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ef9cd1a86e2127bea1324dd2f11997') in 0.020424 seconds
+  Import took 0.022773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008939 seconds.
+  path: Assets/Prefabs/Afforestation/Earth3.prefab
+  artifactKey: Guid(c03cf574b2149294d85646b5f5943fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Afforestation/Earth3.prefab using Guid(c03cf574b2149294d85646b5f5943fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ef9cd1a86e2127bea1324dd2f11997') in 0.009754 seconds
+  Import took 0.012903 seconds .
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002691 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.5 MB.
+System memory in use after: 68.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1760.
+Total: 2.942600 ms (FindLiveObjects: 0.300700 ms CreateObjectMapping: 0.078500 ms MarkObjects: 2.049200 ms  DeleteObjects: 0.513200 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002550 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.819 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.5 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1763.
+Total: 2.238100 ms (FindLiveObjects: 0.165000 ms CreateObjectMapping: 0.072600 ms MarkObjects: 1.545900 ms  DeleteObjects: 0.453300 ms)
+
+========================================================================
+Received Prepare
+Assets/bowl/bowl.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.002458 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.5 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1766.
+Total: 2.560300 ms (FindLiveObjects: 0.242300 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.797300 ms  DeleteObjects: 0.485700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

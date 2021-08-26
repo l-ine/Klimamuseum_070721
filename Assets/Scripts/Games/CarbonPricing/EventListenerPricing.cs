@@ -29,7 +29,7 @@ public class EventListenerPricing : MonoBehaviour
         if (this.pricing && counter < coins.Length)
         {
             // call pay function
-            pay(coins);
+            pay();
         }
     }
 
@@ -49,7 +49,7 @@ public class EventListenerPricing : MonoBehaviour
         }
     }
 
-    void pay(GameObject[] coins)
+    void pay()
     {
         // display of the machine changes and shows number of coins that are already paid
         machineDisplay.GetComponent<MeshRenderer>().material.mainTexture = textures[this.counter + 1];
